@@ -1,0 +1,113 @@
+/*nav bar*/
+p {
+    align-self: center;
+}
+
+
+body {
+    background-color: #E2C2C6;
+
+}
+
+nav {
+
+    background-color: #896889;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 20;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+a {
+    color: #CDE7B0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+a:hover {
+    background-color: #bc9fa2;
+    color: #CDE7B0;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+/* photo 1 main*/
+img {
+    border-radius: 40px;
+    display: block;
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+/* text home*/
+  .box {
+    width: 600px;
+    height: 200px;
+    border: 0px solid #bc9fa2;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+  }
+  
+  /* project pagina links en cover*/
+  div.gallery {
+    border: 0px solid #ccc;
+   
+  }
+  
+  div.gallery:hover {
+    border: 0px solid #fffafa;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

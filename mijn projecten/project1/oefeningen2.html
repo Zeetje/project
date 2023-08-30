@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>deel 2</title>
+    <link rel="stylesheet" href="d2.css" />
+  </head>
+  <body>
+    <h1 class="titel">Zeya Zonne Rosendaal <br> 89627 <br> D1E <br> ♡ </h1>
+    <div class="cover2"></div>
+
+
+
+    <div class="menubar">
+      <div class="menu">
+        <button onclick="myFunction()" class="menubtn"><img class="menu" src="tum0.png" alt="menu"></button>
+        <div id="mymenu" class="menu-content">
+          <a href="#">Over mij</a>
+          <a href="#">Sites</a>
+          <a href="#">Hobbies</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <div class="submenu">
+            <button class="subbtn">Artists</button>
+            <div class="submenu-content">
+              <a href="#">Taylor Swift</a>
+              <a href="#">ABBA</a>
+              <a href="#">MCR</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        document.getElementById("mymenu").classList.toggle("show");
+      }
+
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".menubtn")) {
+          var dropdowns = document.getElementsByClassName("menu-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+ 
+    <h1 style="color: rgb(0, 0, 0);" >Hey Ya! by OutKast
+   <H3>lyrics</H3>
+<br>
+   <H3>One, two, three, uh
+    <br>My baby don't mess around
+    <br>Because she loves me so
+    <br> And this I know fo sho (uh)
+    <br> But does she really wanna
+    <br>But can't stand to see me walk out the door? (Ah)
+    <br>Don't try to fight the feeling <Br>
+        <br> Because the thought alone is killin' me right now (uh)
+        <br>Thank God for Mom and Dad
+        <br>For sticking two together
+        <br>'Cause we don't know how (c'mon) <br>
+        <br>  Hey ya! Hey ya!
+        <br>  Hey ya! Hey ya!
+        <br> Hey ya! Hey ya!
+        <br> Hey ya! Hey ya!
+        <br> You think you've got it
+        <br> Oh, you think you've got it
+        <br> But got it just don't get it 'til there's nothin' at all
+        <br> We get together
+        <br> Oh, we get together
+        <br> But separate's always better when there's feelings involved
+        <br> If what they say is
+        <br>  "Nothing is forever"
+        <br> Then what makes, then what makes
+        <br> Then what makes, then what makes (what makes, what makes)
+        <br>  Love the exception?
+    <br> So why, oh, why, oh
+    <br> Why, oh, why, oh, why, oh
+    <br> Are we so in denial when we know we're not happy here?
+    <br> (Y'all don't want to hear me, you just want to dance)
+    </H3>
+<br>
+   <H3>Hey ya! (Uh oh) Hey ya! (Uh oh)
+    <br> Don't want to meet your daddy
+    <br> Hey ya! (Uh oh)
+    <br> Just want you in my Caddy (Uh oh)
+    <br> Hey ya! (Uh oh)
+    <br> Don't want to meet your mama
+    <br>  Hey ya! (Uh oh)
+    <br>Just want to make you cum-a (Uh oh)
+    <br>  Hey ya! (Uh oh)
+    <br>  I'm, I'm, I'm just being honest (Uh oh)
+    <br> I'm just being honest</H3>
+
+    
+
+    
+
+  </body>
+</html>

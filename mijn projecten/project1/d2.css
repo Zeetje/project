@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(240, 99, 169);
+  }
+  
+  
+  .menubar{
+    background-color: rgb(223, 59, 154);
+    width: 100%;
+    height: auto;
+  position: sticky;
+  top: 5px;
+  
+  }
+  
+  .titel{
+    float: left;
+    color: rgb(255, 180, 221);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size:80px;
+    margin-top: 18%;
+    text-shadow:5px 5px #5f0f308e;
+  
+  
+  }
+  
+  div.cover2{
+    background-color: rgb(255, 255, 255);
+      background-image:url('pink20.jpg') ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      width: auto;
+      height: 1210px;
+  }
+  
+  img.menu{
+    width: 60px;
+    height: auto;
+    pointer-events: none;
+    padding: 0px;
+    
+  }
+  
+  .whitespace{
+    height: 2000px;
+  }
+  
+  
+  
+  
+  /*menuknop-------------------------------------------------------------------------------------------------------------------------*/
+  .menubtn {
+      background-color: #e929af00;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+     
+    }
+  
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #cc54b2;
+    }
+  
+    .menu {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 300px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 150px;
+      text-align: center;
+    }
+  
+    .menu-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .menu-content a:hover {
+          background-color: #ddd;
+  
+      }
+    
+    .show {
+          display:block;
+      
+      }
+  
+    .menu:hover .menubtn {
+        background-color: #fd5ea1;
+      }
+  /*menuknop-------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+  
+  /*eerste dropdown-------------------------------------------------------------------------------------------------------------------*/
+   .dropbtn {
+      background-color:rgb(223, 59, 154);
+      color: white;
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+    }
+    
+    .dropdown {
+      position:absolute;
+      display: inline-block;
+      padding: 6px;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: rgba(235, 95, 181, 0.938);
+  }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+  }
+    
+    .dropdown:hover .dropbtn {
+      background-color: #cf35a1;
+  }
+  /*eerste dropdown-------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /*submenu-----------------------------------------------------------------------------------------------------------------------------*/
+  .submenu {
+    position:absolute;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: -10px;
+  }
+  
+  .subbtn {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: none;
+    height: 40px;
+    margin: -10px;
+  }
+  
+  .submenu-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .submenu-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .submenu:hover .submenu-content {
+      display: block;
+  }
+  
+  .submenu:hover .subbtn {
+    background-color: #ddd;}
+    /*submenu-----------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+    .playlist{
+      position: sticky;
+      top: 1075px;
+      margin: 10px;
+      width: 500px;
+    }

@@ -1,0 +1,63 @@
+
+    <!DOCTYPE html>
+    <H1></H1>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eindopracht 1</title>
+        <link rel="stylesheet" href="java1.css" />
+      </head>
+
+
+      <body>
+        <c<h1><span style='font-size:40px;'>&#127826;</span>Ziekte identificatie app <span style='font-size:40px;'>&#127826;</span></h1>
+        <div class="element">
+        Naam <input id="naam" type="text" size="10" value="naam" required /> Leeftijd
+        <input id="leeftijd" type="number" size="10" value="1" required /> <br /><br />
+        <br />
+    
+    <input type="checkbox" name="moeder" id="moeder">zeurt<br>
+    <input type="checkbox" name="vader" id="vader">irritant<br>
+    <input type="checkbox" name="tante" id="tante">drinkt te veel wijn<br>
+    <input type="checkbox" name="neef" id="neef">denkt dat hij grappig is<br>
+    <input type="checkbox" name="opa" id="opa">slaapt heel de dag<br>
+    <br>
+        <input onclick="uitkomst()" type="submit" />
+    </div>
+        <script>
+          function uitkomst() {
+    
+            let naam = document.getElementById('naam').value
+            let leeftijd = document.getElementById('leeftijd').value
+            let moeder = document.getElementById('moeder').checked
+            let vader = document.getElementById('vader').checked
+            let tante = document.getElementById('tante').checked
+            let neef = document.getElementById('neef').checked
+            let opa = document.getElementById('opa').checked
+            let totaal = moeder + vader + tante + neef + opa
+    
+    
+            if (leeftijd < 18 ) {
+                if (totaal >=3) {
+                    alert(naam  + " " + " u moet naar de dokter")
+                }
+                else {
+                    alert(naam + " " + " u moet niet naar de dokter")
+                }
+            }
+            if (leeftijd >=18 ) {
+                if (totaal >= 2) {
+                    alert(naam + " " + " u moet naar de dokter")
+                }
+                else {
+                    alert(naam + " " + " u moet niet naar de dokter")
+                }
+            }
+          }
+        </script>
+      </body>
+    </html>
+</body>
+</html>
