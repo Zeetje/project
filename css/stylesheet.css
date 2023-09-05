@@ -111,5 +111,14 @@ img {
     display: table;
     clear: both;
   }
+  .gallery a:hover {
+    background-color: transparent; /* Set the background to transparent */
+    color: #40513B; /* Set the text color back to its original color */
+  }
+  .no-hover:hover {
+    background-color: transparent;
+    color: #40513B;
+  }
 
+  
   /*contact pagina*/
