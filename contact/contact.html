@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="/css/stylesheet.css">
+  <script src="contact.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,29 @@
 
     </ul>
   </nav>
- 
+
+  <div class="grid-container">
+    <div class="box">
+      <h2> &#x1F343; Neem contact op!</h2>
+      <form action="/index.html" method="post" onsubmit="return validateForm();">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </div>
+    <iframe src="/photos/kitty.gif" width="550" height="490" frameBorder="0" class="embed"></iframe>
+  </div>
+
+
+
+
 
 </body>
 
