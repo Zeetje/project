@@ -5,7 +5,7 @@ p {
 
 
 body {
-  background-color: #EDF1D6;
+  background-color: #e2e6c3;
 
 }
 
@@ -13,7 +13,9 @@ nav {
 
   background-color: #9DC08B;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 
 }
 
@@ -141,7 +143,7 @@ form {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 label {
