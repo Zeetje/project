@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+footer {
+    background-image: url("../img/headerBG.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    align-items: center;
+    overflow: visible;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.rechts {
+    text-align: center;
+}
+
+.rechts div {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 10vw 10vw;
+    grid-template-rows: 5vh 5vh;
+    gap: 0;
+}

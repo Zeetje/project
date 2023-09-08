@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="../navbar/navbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Happy Italy</title>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo"><img style="width: 150px" src="../img/MainLogo.png" alt="logo"
+					onclick="window.location.href = '../'"></div>
+			<ul class="links">
+				<li onclick="window.location.href = '../'" class="btn"><a>Home</a></li>
+				<li onclick="window.location.href = '#'" class="btn"><a>Menu</a></li>
+				<li onclick="window.location.href = '../socials/'" class="btn"><a>Info</a></li>
+			</ul>
+			<a style="width: 120px;"></a>
+			<a class="toggle_btn">
+				<i class="fa-solid fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<div class="grid-container">
+		<div class="main">
+			<div class="buttons">
+				<div>
+					<button id="contadina">Pizza Contadina</button>
+					<button id="margarita">Pizza Margherita</button>
+					<button id="tonno">Pizza Tonno</button>
+				</div>
+				<div>
+					<button id="delizioza">Pizza Delizioza</button>
+					<button id="kaas">Pizza Quattro formaggi</button>
+					<button id="pepperoni">Pizza Salame</button>
+				</div>
+				<div>
+					<button id="rustica">Pizza Rustica</button>
+					<button id="fiamma">Pizza Fiamma</button>
+					<button id="lusso-margherita">Pizza Di Lusso Margherita</button>
+				</div>
+				<div>
+					<button id="stagioni">Pizza Quattro Stagioni </button>
+					<button id="prosciutto">Pizza Prosciutto di Parma</button>
+					<button id="pollo">Pizza Pollo con Extra</button>
+				</div>
+				<div>
+					<button id="funghi">Pizza Ai funghi</button>
+					<button id="hawaii">Pizza Hawaii</button>
+					<button id="pollo-p">Pizza Pollo Pesto</button>
+				</div>
+				<div>
+					<button id="doner">Pizza Döner</button>
+					<button id="cotto">Pizza Con Cotto</button>
+					<button id="carpaccio">Pizza Carpaccio</button>
+				</div>
+				<div>
+					<button id="bbq-C">Pizza BBQ chicken</button>
+					<button id="bbq-M">Pizza BBQ Meatlovers</button>
+					<button id="bufala">Pizza Bufala Bruschetta</button>
+				</div>
+				<div>
+					<button id="margarita-v">Pizza Vegan Margherita</button>
+					<button id="funghi-v">Pizza Vegan Funghi</button>
+					<button id="doner-v">Pizza Vegan Döner</button>
+				</div>
+				<div>
+					<button id="pollo-p-v">Pizza Vegan Pollo Pesto</button>
+					<button id="bbq-C-v">Pizza Vega BBQ chicken</button>
+					<button id="inv"></button>
+				</div>
+			</div>
+			<div id="cartContainer">
+				<div id="cart">
+
+				</div>
+				<div class="price">
+					<p id="price">Total Price: €0.00</p><br>
+					<button id="afrekenen">Afrekenen</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="dropdown_menu">
+		<li onclick="window.location.href = '../'" class="btn"><a>Home</a></li>
+		<li onclick="window.location.href = '#'" class="btn"><a>Menu</a></li>
+		<li onclick="window.location.href = '../socials/index.html'" class="btn"><a>Info</a></li>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="./script.js"></script>
+	<script src="../navbar/navbar.js"></script>
+</body>
+
+</html>

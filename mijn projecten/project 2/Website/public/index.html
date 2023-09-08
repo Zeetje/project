@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./navbar/navbar.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Happy Italy</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img style="width: 150px" src="./img/MainLogo.png" alt="logo"></div>
+            <ul class="links">
+                <li onclick="window.location.href = '#'" class="btn"><a>Home</a></li>
+                <li onclick="window.location.href = 'bestellen/'" class="btn"><a>Menu</a></li>
+                <li onclick="window.location.href = 'socials/'" class="btn"><a>Info</a></li>
+            </ul>
+            <a style="width: 120px;"></a>
+            <a class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="grid-container">
+
+        <div class="main">
+            <div class="slider" id="slider">
+                <div class="slide active">
+                    <img src="./img/vacatures.png" id="imgSlider">
+                </div>
+                <div class="slide">
+                    <img src="./img/cinemadeals.png">
+                </div>
+                <div class="slide">
+                    <img src="./img/pastatuesday.png">
+                </div>
+            </div>
+            <div class="info">
+                <div class="infoContainer">
+                    <div class="history">
+                        <br>
+                        <h3>Geschiedenis van Happy Italy</h3>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id urna bibendum, iaculis
+                            odio a,
+                            viverra felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                            turpis egestas. Nullam dignissim cursus mi malesuada consequat. Proin in pharetra lacus.
+                            Aliquam
+                            id dapibus elit. Cras luctus fermentum ante, sit amet elementum turpis condimentum non.
+                            Vivamus
+                            finibus pharetra orci. Maecenas eleifend pretium magna at varius. Aenean ut augue eu ex
+                            lacinia
+                            viverra vitae eu ex. Nullam consectetur ac quam id pretium.
+                            Ut vitae urna ut dolor fermentum aliquet. In at congue erat. Morbi rhoncus nibh nibh, at
+                            tincidunt magna rhoncus sit amet. Quisque ornare fermentum egestas. Proin tincidunt
+                            fringilla
+                            turpis, sed cursus dui commodo laoreet. Integer egestas interdum eros, ac maximus tellus.
+                            Pellentesque mattis maximus blandit. Phasellus pulvinar at diam et scelerisque. Quisque
+                            laoreet,
+                            turpis a pharetra placerat, dui ante dapibus arcu, a mattis sapien nisl ac risus. Vivamus
+                            tristique ullamcorper massa in tempus.
+                        </p>
+                    </div>
+                    <!-- <div class="ons">
+                        <br>
+                        <h3>Over Ons</h3>
+                        <br>
+                        <p>Deze website is gemaakt door: </p>
+                        <br>
+                        <li>Valentijn</li>
+                        <li>Jinle</li>
+                        <li>Zeya</li>
+                        <br>
+                        <p>Gemaakt als project voor het vak Beroeps.</p>
+                    </div> -->
+                </div>
+
+                <div class="ads">
+                    <img src="./img/familydeals.png" id="ad1">
+                    <img src="./img/2gangen.png" id="ad2">
+                    <img src="./img/2pizza.png" id="ad3">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container" id="foot">
+
+                <h3>Openingstijden</h3>
+
+                <p> We zijn dagelijks geopend van 12:00-22:00*. </p>
+                <p> *Let op: de keuken sluit om 21:30</p>
+                <p> Reserveren is niet nodig. Kom gezellig langs dan helpen wij snel aan tafel!</p>
+
+                <p>Wilt u toch reserveren?</p>
+                <p> Dat kan op maandag t/m donderdag.</p>
+            </div>
+
+            <div class="rechts">
+                <h3>Social Media platforms:</h3>
+                <div>
+                    <a href="https://www.instagram.com/happyitalynl/?hl=en">
+                        <li><img src="../img/instagram.png" class="instagram" height="25px" width="25px"></li>
+                    </a>
+                    <a href="https://twitter.com/happyitaly?lang=en">
+                        <li><img src="../img/twitter.png" class="twitter" height="20px" width="25px"></li>
+                    </a>
+                    <a
+                        href="https://www.tiktok.com/@happyitalynl?utm_source=www.happyitaly.nl&utm_medium=website&utm_campaign=tiktok">
+                        <li><img src="../img/tiktok.png" class="tiktok" width="80px"></li>
+                    </a>
+                    <a href="https://nl.linkedin.com/company/happy-management-group">
+                        <li><img src="../img/linkedin.png" class="linkedin" width="80px"></li>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- NAVBAR DROPDOWN -->
+    <div class="dropdown_menu">
+        <li onclick="window.location.href = '#'" class="btn"><a>Home</a></li>
+        <li onclick="window.location.href = 'bestellen/index.html'" class="btn"><a>Menu</a></li>
+        <li onclick="window.location.href = 'socials/index.html'" class="btn"><a>Info</a></li>
+    </div>
+    <!-- NAVBAR DROPDOWN -->
+    <script src="./script.js"></script>
+    <script src="./navbar/navbar.js"></script>
+    <script>kaasblokje()</script>
+</body>
+
+</html>
