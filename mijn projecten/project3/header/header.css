@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+#header {
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(30, 30, 30);
+    border-bottom: 30px solid black;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo {
+    width: 200px;
+    
+    
+}
+
+#navtitel {
+    color: rgb(240, 240, 240);
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
+    margin-top: -13vh;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 200px;
+}
+
+#nafbut {
+    border: solid 5px white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    height: 2vh;
+    width: min-content;
+    float: right;
+    
+    margin-top: 5vh;
+    margin-right: 40px;
+
+    top: 0px;
+    left: 0px;
+}
+
+#navbut {
+    border: solid 5px white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    height: 2vh;
+    width: min-content;
+    float: right;
+    
+    margin-top: 5vh;
+    margin-right: 40px;
+
+    top: 0px;
+    left: 0px;
+}
+
+#Quizen {
+    display: none;
+    background-color:rgb(30, 30, 30) ;
+    color: rgb(210, 210, 210);
+    border: 5px solid black;
+    width: 180px;
+    font-style: normal;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -16px;
+}
+
+#Quizen, a:link, a:visited {
+    color: rgb(210, 210, 210);
+}
+
+#navbut:hover #Quizen{
+    display: block;
+}
+

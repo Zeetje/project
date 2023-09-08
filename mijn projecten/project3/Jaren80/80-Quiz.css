@@ -1,0 +1,85 @@
+
+#info-img{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body{
+    background-image: url(img/80s.png);
+    background-size: cover;
+}
+#c-container{
+    margin: auto;
+    margin-top: 220px;
+    width: 900px;
+    padding: 10px;
+    font-size: 20px;
+}
+.q-container{
+    width: 800px;
+    margin: auto;
+    border: double 5px black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(192, 106, 192);
+    
+}
+input{
+    margin-top: 15px;
+}
+button{
+    width: 90px;
+    height: 35px;
+    margin-top: 15px;
+    
+}
+#info-container{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    border: double 5px black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(166, 92, 166);
+}
+#ads1{
+    margin-top: 220px;
+    float: left;
+    height: 80vh;
+    background-color: black;
+    margin-left: 2.5vw;
+    width: 200px;
+}
+
+#ad1 {
+    width: 200px;
+    height: 80vh;
+}
+
+#ad1:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#ads2 {
+    margin-top: 220px;
+    float: right;
+    height: 80vh;
+    background-color: black;
+    margin-right: 2.5vw;
+    width: 200px;
+
+}
+
+#ad2 {
+    width: 200px;
+    height: 80vh;
+    transition: 0.5s;
+}
+
+#ad2:hover {
+    opacity: 0.5;
+}

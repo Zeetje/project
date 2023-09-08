@@ -1,0 +1,30 @@
+#footer{
+    background-color: rgb(30, 30, 30);
+    border-top: solid 30px rgb(0,0 ,0);
+    margin-top: 1vh;
+}
+#fo-container{
+    max-width: 750px;
+    margin: auto;
+}
+.fo-tekst{
+    font-size: 20px;
+    color: rgb(210, 210, 210);
+}
+#namen{
+    color: rgb(210, 210, 210);
+    float: left;
+    margin: 30px;
+    padding: 20px;
+}
+#fo-links{
+    float: right;
+    margin: 30px;
+    padding: 20px;
+}
+.fo-link{
+    color: rgb(210, 210, 210);
+}
+#clear{
+    clear: both;
+}
