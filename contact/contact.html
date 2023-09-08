@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/stylesheet.css">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../css/stylesheet.css">
   <script src="contact.js"></script>
 </head>
 
 <body>
   <nav>
     <ul>
-      <li><a href="/index.html">Home </a></li>
-      <li><a href="/mijn projecten/projecten.html">Mijn projecten</a></li>
-      <li><a href="/about:cv/aboutcv.html"> About/CV</a></li>
-      <li><a href="/contact/contact.html">Contact</a></li>
+      <li><a href="../index.html">Home </a></li>
+      <li><a href="../mijn projecten/projecten.html">Mijn projecten</a></li>
+      <li><a href="../about:cv/aboutcv.html"> About/CV</a></li>
+      <li><a href="../contact/contact.html">Contact</a></li>
 
     </ul>
   </nav>
@@ -24,7 +24,7 @@
   <div class="grid-container">
     <div class="box">
       <h2> &#x1F343; Neem contact op met mij!</h2>
-      <form action="/index.html" method="post" onsubmit="return validateForm();">
+      <form action="/index.html" method="post" onsubmit="event.preventDefault(); validateForm();">
         <label for="name">Naam:</label>
         <input type="text" id="name" name="name" required>
 
@@ -37,7 +37,7 @@
         <input type="submit" value="Send">
       </form>
     </div>
-    <iframe src="/photos/kitty.gif" width="550" height="490" frameBorder="0" class="embed"></iframe>
+    <iframe src="../photos/kitty.gif" width="550" height="490" frameBorder="0" class="embed"></iframe>
   </div>
 
 

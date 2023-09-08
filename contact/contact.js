@@ -27,7 +27,7 @@ function validateForm() {
     alert("Form submitted successfully!");
     
     // Redirect to the target page
-    window.location.href = "/index.html";
+    window.location.href = "../index.html";
     
     // Prevent the form from submitting via the browser's default behavior
     return false;
